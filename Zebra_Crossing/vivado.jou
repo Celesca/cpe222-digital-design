@@ -1,0 +1,67 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Dec 10 15:30:36 2023
+# Process ID: 17276
+# Current directory: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1764 C:\Users\folks\Desktop\Vivado\All Project\Zebra_Crossing\Zebra_Crossing.xpr
+# Log file: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/vivado.log
+# Journal file: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.xpr}
+close [ open {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/traffic.v} w ]
+add_files {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/traffic.v}}
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/traffic.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/traffic.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/traffic.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close [ open {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/clk_divider.v} w ]
+add_files {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/clk_divider.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v} w ]
+add_files {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/divider.v} w ]
+add_files {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/divider.v}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/clk_divider.v}}] -no_script -reset -force -quiet
+remove_files  {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/clk_divider.v}}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

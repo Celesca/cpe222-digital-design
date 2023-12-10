@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Dec 10 16:18:32 2023
+# Process ID: 25232
+# Current directory: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/synth_1
+# Command line: vivado.exe -log topmodule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source topmodule.tcl
+# Log file: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/synth_1/topmodule.vds
+# Journal file: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source topmodule.tcl -notrace
+Command: synth_design -top topmodule -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 26564 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 948.852 ; gain = 233.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'topmodule' [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:3]
+INFO: [Synth 8-6157] synthesizing module 'divider' [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/divider.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'divider' (1#1) [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/divider.v:3]
+INFO: [Synth 8-6157] synthesizing module 'traffic' [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/traffic.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'traffic' (2#1) [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/traffic.v:3]
+ERROR: [Synth 8-448] named port connection 'led' does not exist for instance 'traffic_ctrl' of module 'traffic' [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:24]
+ERROR: [Synth 8-685] variable 'segment' should not be used in output port connection [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:25]
+ERROR: [Synth 8-448] named port connection 'an' does not exist for instance 'traffic_ctrl' of module 'traffic' [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:26]
+ERROR: [Synth 8-448] named port connection 'dp' does not exist for instance 'traffic_ctrl' of module 'traffic' [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:27]
+ERROR: [Synth 8-6156] failed synthesizing module 'topmodule' [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1021.781 ; gain = 306.145
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 0 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Sun Dec 10 16:18:44 2023...

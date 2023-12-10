@@ -1,0 +1,1290 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 17276
+License: Customer
+
+Current time: 	Sun Dec 10 15:30:46 ICT 2023
+Time zone: 	Indochina Time (Asia/Bangkok)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 108 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	D:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	folks
+User home directory: C:/Users/folks
+User working directory: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2019.2
+RDI_DATADIR: D:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/folks/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/folks/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/folks/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/vivado.log
+Vivado journal file location: 	C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/vivado.jou
+Engine tmp dir: 	C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/.Xil/Vivado-17276-LAPTOP-G3JK5R74
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	191 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 856 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 113 MB (+115863kb) [00:00:04]
+// [Engine Memory]: 667 MB (+548350kb) [00:00:04]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\folks\Desktop\Vivado\All Project\Zebra_Crossing\Zebra_Crossing.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 888 MB (+196508kb) [00:00:08]
+// WARNING: HEventQueue.dispatchEvent() is taking  1845 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 907 MB. GUI used memory: 56 MB. Current time: 12/10/23, 3:30:49 PM ICT
+// Project name: Zebra_Crossing; location: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bB (cr)
+// Elapsed time: 38 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "TrafficLightController"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// HOptionPane Warning: 'A file with the specified name already exists. Please enter another name. (Create Source File)'
+selectButton("OptionPane.button", "OK"); // JButton (A, H)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "traffic"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 13 seconds
+dismissDialog("Add Sources"); // c (cr)
+// Tcl Message: close [ open {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/traffic.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/traffic.v}} 
+// I (cr): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Utility Sources]", 4); // B (F, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, traffic (traffic.v)]", 1, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, traffic (traffic.v)]", 1, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("traffic.v", 169, 349); // ch (w, cr)
+typeControlKey((HResource) null, "traffic.v", 'v'); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 946 MB. GUI used memory: 59 MB. Current time: 12/10/23, 3:31:54 PM ICT
+typeControlKey(null, null, 'z');
+selectCodeEditor("traffic.v", 159, 344); // ch (w, cr)
+typeControlKey((HResource) null, "traffic.v", 'v'); // ch (w, cr)
+selectCodeEditor("traffic.v", 263, 51); // ch (w, cr)
+selectCodeEditor("traffic.v", 211, 45); // ch (w, cr)
+// [Engine Memory]: 946 MB (+13609kb) [00:01:25]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("traffic.v", 393, 214); // ch (w, cr)
+selectCodeEditor("traffic.v", 393, 231); // ch (w, cr)
+selectCodeEditor("traffic.v", 284, 343); // ch (w, cr)
+// Elapsed time: 39 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master.xdc]", 4, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Basys-3-Master.xdc]", 4, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("Basys-3-Master.xdc", 327, 193); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 116, 94); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 4, 13); // ch (w, cr)
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'c'); // ch (w, cr)
+// Elapsed time: 48 seconds
+selectCodeEditor("Basys-3-Master.xdc", 479, 233); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // i (h, cr)
+// Elapsed time: 11 seconds
+selectCodeEditor("Basys-3-Master.xdc", 7, 10); // ch (w, cr)
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 540, 188); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 707, 151); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 696, 121); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 763, 121); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 699, 119); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 721, 119); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 706, 121); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 695, 125); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 711, 118); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 741, 217); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 700, 118); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 711, 118); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 649, 163); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 741, 142); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 735, 125); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 763, 181); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 774, 221); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // i (h, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// f (cr): Launch Runs: addNotify
+dismissDialog("No Implementation Results Available"); // A (cr)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec 10 15:34:50 2023] Launched synth_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/synth_1/runme.log [Sun Dec 10 15:34:50 2023] Launched impl_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 54 seconds
+selectCodeEditor("Basys-3-Master.xdc", 721, 201); // ch (w, cr)
+// TclEventType: RUN_STEP_COMPLETED
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 619, 136); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 758, 134); // ch (w, cr)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Basys-3-Master.xdc", 846, 139); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 806, 211); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 1); // i (h, cr)
+// TclEventType: RUN_STEP_COMPLETED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // i (h, cr)
+selectCodeEditor("Basys-3-Master.xdc", 681, 85); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Basys-3-Master.xdc", 764, 229); // ch (w, cr)
+// Elapsed time: 12 seconds
+selectCodeEditor("Basys-3-Master.xdc", 518, 235); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 442, 243); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 622, 187); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 716, 159); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 719, 101); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 694, 135); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 685, 156); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 672, 160); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 601, 190); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 638, 164); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 716, 93); // ch (w, cr)
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// aj (cr): Bitstream Generation Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // aj (cr)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cr)
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,153 MB. GUI used memory: 62 MB. Current time: 12/10/23, 3:36:49 PM ICT
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+// [Engine Memory]: 1,153 MB (+168262kb) [00:06:10]
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+// [Engine Memory]: 1,422 MB (+221561kb) [00:07:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 61 MB. Current time: 12/10/23, 3:37:49 PM ICT
+// Elapsed time: 52 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Basys-3-Master.xdc:10]. ]", 1, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Basys-3-Master.xdc:10]. ]", 4, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Common 17-55] 'set_property' expects at least one object. [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Basys-3-Master.xdc:10]. ]", 1, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Basys-3-Master.xdc:10]. ]", 4, true); // ah (O, cr) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "port;-;roadLED;-;;-;10;-;"); // ah (O, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,526 MB. GUI used memory: 61 MB. Current time: 12/10/23, 3:38:14 PM ICT
+// [Engine Memory]: 1,526 MB (+34549kb) [00:07:50]
+// [GUI Memory]: 120 MB (+1697kb) [00:08:46]
+// Elapsed time: 529 seconds
+selectCodeEditor("Basys-3-Master.xdc", 659, 132); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 706, 115); // ch (w, cr)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Basys-3-Master.xdc", 658, 75); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 707, 77); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 709, 77, false, false, false, false, true); // ch (w, cr) - Double Click
+selectCodeEditor("Basys-3-Master.xdc", 663, 79); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 657, 81); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 722, 74); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 710, 77); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 643, 79); // ch (w, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, (String) null, 8, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Write Bitstream, DRC, Pin Planning, [DRC UCIO-1] Unconstrained Logical Port: 6 out of 15 logical ports have no user assigned specific location constraint (LOC). This may cause I/O contention or incompatibility with the board power or connectivity affecting performance, signal integrity or in extreme cases cause damage to the device or the components to which it is connected. To correct this violation, specify all pin locations. This design will fail to generate a bitstream unless all logical ports have a user specified site LOC constraint defined.  To allow bitstream creation with unspecified pin locations (not recommended), use this command: set_property SEVERITY {Warning} [get_drc_checks UCIO-1].  NOTE: When using the Vivado Runs infrastructure (e.g. launch_runs Tcl command), add this command to a .tcl file and add that file as a pre-hook for write_bitstream step for the implementation run.  Problem ports: roadLED[2:0], and zebraLED[2:0].. ]", 9, false, false, false, false, true, false); // ah (O, cr) - Popup Trigger
+// [Engine Memory]: 1,649 MB (+48507kb) [00:16:31]
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // af (K, Popup.HeavyWeightWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,649 MB. GUI used memory: 63 MB. Current time: 12/10/23, 3:47:14 PM ICT
+// Elapsed time: 63 seconds
+selectCodeEditor("Basys-3-Master.xdc", 289, 257); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 412, 183); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 401, 188); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 411, 121); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 402, 142); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 394, 158); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 418, 186); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 381, 179); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 343, 185); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 384, 204); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 389, 206); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 388, 224); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 376, 263); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 421, 298); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 427, 313); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 70, 243); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 141, 193); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 167, 212); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 196, 220); // ch (w, cr)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // i (h, cr)
+selectCodeEditor("Basys-3-Master.xdc", 233, 125); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 127, 75); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // i (h, cr)
+// Elapsed time: 45 seconds
+selectCodeEditor("Basys-3-Master.xdc", 242, 186); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 187, 174); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 178, 158); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 416, 190); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 331, 180); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 398, 213); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 355, 231); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 55, 184); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 178, 180); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 256, 253); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 351, 161); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 249, 144); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 414, 179); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 455, 197); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 282, 66); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 332, 162); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 224, 165); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 98, 111); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 391, 243); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 214, 129); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 425, 255); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 411, 261); // ch (w, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // A (cr)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec 10 15:50:36 2023] Launched synth_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/synth_1/runme.log [Sun Dec 10 15:50:36 2023] Launched impl_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 27 seconds
+selectCodeEditor("Basys-3-Master.xdc", 276, 267); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 377, 267); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 266, 338); // ch (w, cr)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// aj (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 92 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bB (cr):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,955 MB. GUI used memory: 65 MB. Current time: 12/10/23, 3:52:50 PM ICT
+// [Engine Memory]: 1,955 MB (+234361kb) [00:22:11]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 131 MB (+5127kb) [00:22:14]
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  2464 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2442.070 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2019.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.188 . Memory (MB): peak = 2442.070 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.188 . Memory (MB): peak = 2442.070 ; gain = 0.000 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2442.070 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// TclEventType: DRC_ADDED
+// [GUI Memory]: 141 MB (+3014kb) [00:22:15]
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 2442.070 ; gain = 0.000 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// [GUI Memory]: 150 MB (+2101kb) [00:22:15]
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dQ' command handler elapsed time: 19 seconds
+// Device view-level: 0.1
+// Device view-level: 0.0
+// Elapsed time: 19 seconds
+dismissDialog("Open Implemented Design"); // bB (cr)
+// Device view-level: 0.0
+// [GUI Memory]: 167 MB (+9985kb) [00:22:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,002 MB. GUI used memory: 100 MB. Current time: 12/10/23, 3:53:21 PM ICT
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 32, true); // u (O, cr) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bB (cr):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw_manager 
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+dismissDialog("Open Hardware Manager"); // bB (cr)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+// Elapsed time: 55 seconds
+selectCodeEditor("Basys-3-Master.xdc", 653, 299); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 583, 322); // ch (w, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ai (ao, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server -allow_non_jtag 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bB (cr):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2019.2   **** Build date : Nov  6 2019 at 22:12:23     ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042 
+// Tcl Message: INFO: [Labtools 27-3417] Launching cs_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:   ****** Xilinx cs_server v2019.2.0   **** Build date : Nov 07 2019-12:28:22     ** Copyright 2017-2019 Xilinx, Inc. All Rights Reserved.    
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 2442.070 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// WARNING: HEventQueue.dispatchEvent() is taking  3607 ms.
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183637744A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/traffic.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 3,221 MB (+1225128kb) [00:24:08]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 13 seconds
+dismissDialog("Auto Connect"); // bB (cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,222 MB. GUI used memory: 101 MB. Current time: 12/10/23, 3:54:49 PM ICT
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (ds, cr)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bB (cr):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cr)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/traffic.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bB (cr)
+// Elapsed time: 33 seconds
+selectCodeEditor("Basys-3-Master.xdc", 732, 168); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 764, 165); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 729, 165); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 749, 162); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 731, 170); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 711, 133); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 732, 156); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 5, 136); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 4, 137); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 4, 136, false, false, false, false, true); // ch (w, cr) - Double Click
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Basys-3-Master.xdc", 741, 162); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 803, 108); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 786, 213); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 776, 225); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 790, 213); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 804, 197); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 759, 219); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 790, 187); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 759, 221); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 762, 268); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 797, 166); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 791, 248); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 794, 263); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 796, 242); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 793, 149); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 781, 116); // ch (w, cr)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Basys-3-Master.xdc", 547, 310); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 435, 327); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 422, 332); // ch (w, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cr)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec 10 15:56:13 2023] Launched synth_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/synth_1/runme.log [Sun Dec 10 15:56:13 2023] Launched impl_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// aj (cr): Bitstream Generation Completed: addNotify
+// Elapsed time: 94 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_WRITE_CONFIG_MEMORY_FILE, "Generate Memory Configuration File"); // a (Q, aj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_WRITE_CONFIG_MEMORY_FILE
+// aU (cr): Write Memory Configuration File: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aU)
+dismissDialog("Write Memory Configuration File"); // aU (cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 32, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 33, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a35t_0"); // ai (ao, cr)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bC (cr): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bC)
+// bB (cr):  Program Device : addNotify
+dismissDialog("Program Device"); // bC (cr)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/traffic.bit} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bB (cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("Basys-3-Master.xdc", 296, 211); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 374, 342); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 440, 321); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 306, 117); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 0); // i (h, cr)
+// Elapsed time: 106 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 0); // i (h, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "clk_divider"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// HOptionPane Warning: 'A file with the specified name already exists. Please enter another name. (Create Source File)'
+selectButton("OptionPane.button", "OK"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("CANCEL", "Cancel"); // JButton (j, c)
+// 'h' command handler elapsed time: 9 seconds
+dismissDialog("Add Sources"); // c (cr)
+// Elapsed time: 14 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // aa (q, cr)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // aa (q, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "clk_divider"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 8 seconds
+dismissDialog("Add Sources"); // c (cr)
+// Tcl Message: close [ open {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/clk_divider.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/clk_divider.v}} 
+// I (cr): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cr)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// I (cr): Settings: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  2458 ms.
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cr)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cr)
+dismissDialog("Settings"); // I (cr)
+// [GUI Memory]: 222 MB (+49086kb) [00:30:13]
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// HMemoryUtils.trashcanNow. Engine heap size: 3,344 MB. GUI used memory: 163 MB. Current time: 12/10/23, 4:00:54 PM ICT
+selectCodeEditor("Basys-3-Master.xdc", 549, 143); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 714, 236); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_divider (clk_divider.v)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, clk_divider (clk_divider.v)]", 2, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("clk_divider.v", 220, 336); // ch (w, cr)
+typeControlKey((HResource) null, "clk_divider.v", 'v'); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 188, 175); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 277, 90); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 424, 280); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 427, 280); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("clk_divider.v", 335, 315); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 263, 353); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 1); // i (h, cr)
+selectCodeEditor("traffic.v", 319, 346); // ch (w, cr)
+// Elapsed time: 83 seconds
+selectCodeEditor("traffic.v", 334, 318); // ch (w, cr)
+selectCodeEditor("traffic.v", 434, 363); // ch (w, cr)
+selectCodeEditor("traffic.v", 230, 338); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 1); // i (h, cr)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a (o, c)
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_NETLIST_BLOCK_DESIGN, "Add or create design sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "topmodule.v"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 8 seconds
+dismissDialog("Add Sources"); // c (cr)
+// Tcl Message: close [ open {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v}} 
+// I (cr): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, traffic (traffic.v)]", 1, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, traffic (traffic.v)]", 1, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topmodule (topmodule.v)]", 3, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topmodule (topmodule.v)]", 3, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("topmodule.v", 205, 342); // ch (w, cr)
+typeControlKey((HResource) null, "topmodule.v", 'v'); // ch (w, cr)
+selectCodeEditor("topmodule.v", 227, 39); // ch (w, cr)
+selectCodeEditor("topmodule.v", 230, 27); // ch (w, cr)
+selectCodeEditor("topmodule.v", 240, 15); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("topmodule.v", 127, 239); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 51 seconds
+selectCodeEditor("topmodule.v", 161, 268); // ch (w, cr)
+selectCodeEditor("topmodule.v", 225, 205); // ch (w, cr)
+selectCodeEditor("topmodule.v", 187, 103); // ch (w, cr)
+selectCodeEditor("topmodule.v", 145, 178); // ch (w, cr)
+selectCodeEditor("topmodule.v", 180, 139); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+// Elapsed time: 50 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectCodeEditor("clk_divider.v", 222, 342); // ch (w, cr)
+typeControlKey((HResource) null, "clk_divider.v", 'v'); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 203, 17); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 3, 49); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 281, 64); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 305, 157); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 484, 222); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 590, 238); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("clk_divider.v", 589, 239); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 512, 299); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 452, 339); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 452, 244); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 516, 143); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 656, 136); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 636, 96); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 571, 134); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 553, 185); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 551, 224); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 543, 111); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 519, 150); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 538, 260); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 533, 192); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 545, 93); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 490, 188); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 477, 287); // ch (w, cr)
+selectCodeEditor("clk_divider.v", 417, 338); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+// Elapsed time: 125 seconds
+selectCodeEditor("Basys-3-Master.xdc", 294, 69); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 312, 42); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // E (f, cr)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cr): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (E, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "divider"); // ac (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 6 seconds
+dismissDialog("Add Sources"); // c (cr)
+// Tcl Message: close [ open {C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/divider.v} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/divider.v}} 
+// I (cr): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("OptionPane.button", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, divider (divider.v)]", 3, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, divider (divider.v)]", 3, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectCodeEditor("divider.v", 242, 334); // ch (w, cr)
+selectCodeEditor("divider.v", 67, 22); // ch (w, cr)
+selectCodeEditor("divider.v", 0, 30); // ch (w, cr)
+typeControlKey((HResource) null, "divider.v", 'v'); // ch (w, cr)
+selectCodeEditor("divider.v", 194, 337); // ch (w, cr)
+selectCodeEditor("divider.v", 234, 38); // ch (w, cr)
+selectCodeEditor("divider.v", 234, 64); // ch (w, cr)
+selectCodeEditor("divider.v", 408, 219); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("divider.v", 391, 311); // ch (w, cr)
+selectCodeEditor("divider.v", 337, 335); // ch (w, cr)
+selectCodeEditor("divider.v", 307, 361); // ch (w, cr)
+selectCodeEditor("divider.v", 320, 329); // ch (w, cr)
+selectCodeEditor("divider.v", 416, 230); // ch (w, cr)
+selectCodeEditor("divider.v", 124, 162); // ch (w, cr)
+selectCodeEditor("divider.v", 263, 163); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("divider.v", 401, 222); // ch (w, cr)
+selectCodeEditor("divider.v", 441, 300); // ch (w, cr)
+selectCodeEditor("divider.v", 396, 335); // ch (w, cr)
+selectCodeEditor("divider.v", 406, 313); // ch (w, cr)
+selectCodeEditor("divider.v", 347, 346); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "divider.v", 4); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectCodeEditor("topmodule.v", 224, 209); // ch (w, cr)
+typeControlKey((HResource) null, "topmodule.v", 'v'); // ch (w, cr)
+selectCodeEditor("topmodule.v", 227, 27); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 0); // i (h, cr)
+selectCodeEditor("traffic.v", 666, 153); // ch (w, cr)
+selectCodeEditor("traffic.v", 664, 178); // ch (w, cr)
+selectCodeEditor("traffic.v", 608, 235); // ch (w, cr)
+selectCodeEditor("traffic.v", 658, 192); // ch (w, cr)
+selectCodeEditor("traffic.v", 722, 157); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "divider.v", 4); // i (h, cr)
+// Elapsed time: 10 seconds
+selectCodeEditor("divider.v", 143, 358); // ch (w, cr)
+selectCodeEditor("divider.v", 115, 351); // ch (w, cr)
+typeControlKey((HResource) null, "divider.v", 'c'); // ch (w, cr)
+// Elapsed time: 100 seconds
+selectCodeEditor("divider.v", 281, 350); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectCodeEditor("topmodule.v", 208, 360); // ch (w, cr)
+typeControlKey((HResource) null, "topmodule.v", 'v'); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectCodeEditor("topmodule.v", 187, 349); // ch (w, cr)
+typeControlKey((HResource) null, "topmodule.v", 'v'); // ch (w, cr)
+selectCodeEditor("topmodule.v", 285, 155); // ch (w, cr)
+selectCodeEditor("topmodule.v", 280, 304); // ch (w, cr)
+selectCodeEditor("topmodule.v", 233, 344); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("topmodule.v", 298, 290); // ch (w, cr)
+selectCodeEditor("topmodule.v", 311, 247); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("topmodule.v", 418, 231); // ch (w, cr)
+selectCodeEditor("topmodule.v", 411, 241); // ch (w, cr)
+selectCodeEditor("topmodule.v", 452, 219); // ch (w, cr)
+selectCodeEditor("topmodule.v", 420, 239); // ch (w, cr)
+selectCodeEditor("topmodule.v", 465, 221); // ch (w, cr)
+selectCodeEditor("topmodule.v", 425, 242); // ch (w, cr)
+selectCodeEditor("topmodule.v", 486, 221); // ch (w, cr)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectCodeEditor("topmodule.v", 236, 180); // ch (w, cr)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("topmodule.v", 309, 227); // ch (w, cr)
+selectCodeEditor("topmodule.v", 311, 222); // ch (w, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topmodule (topmodule.v)]", 1); // B (F, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topmodule (topmodule.v)]", 1); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topmodule (topmodule.v)]", 1); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topmodule (topmodule.v)]", 1); // B (F, cr)
+selectCodeEditor("topmodule.v", 330, 289); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "divider.v", 4); // i (h, cr)
+selectCodeEditor("divider.v", 362, 317); // ch (w, cr)
+selectCodeEditor("divider.v", 336, 339); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectCodeEditor("topmodule.v", 115, 78); // ch (w, cr)
+selectCodeEditor("topmodule.v", 501, 85); // ch (w, cr)
+selectCodeEditor("topmodule.v", 591, 79); // ch (w, cr)
+selectCodeEditor("topmodule.v", 586, 114); // ch (w, cr)
+selectCodeEditor("topmodule.v", 632, 192); // ch (w, cr)
+selectCodeEditor("topmodule.v", 218, 256); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "divider.v", 4); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "divider.v", 4); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+selectCodeEditor("Basys-3-Master.xdc", 739, 283); // ch (w, cr)
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // ch (w, cr)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Basys-3-Master.xdc", 754, 261); // ch (w, cr)
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 646, 271); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 592, 312); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 582, 325); // ch (w, cr)
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+selectCodeEditor("Basys-3-Master.xdc", 678, 119); // ch (w, cr)
+// Elapsed time: 16 seconds
+selectCodeEditor("Basys-3-Master.xdc", 518, 213); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 530, 203); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+selectCodeEditor("Basys-3-Master.xdc", 553, 201); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectCodeEditor("topmodule.v", 358, 163); // ch (w, cr)
+selectCodeEditor("topmodule.v", 550, 161); // ch (w, cr)
+selectCodeEditor("topmodule.v", 591, 170); // ch (w, cr)
+selectCodeEditor("topmodule.v", 594, 158); // ch (w, cr)
+selectCodeEditor("topmodule.v", 608, 176); // ch (w, cr)
+// Elapsed time: 35 seconds
+selectCodeEditor("topmodule.v", 212, 349); // ch (w, cr)
+typeControlKey((HResource) null, "topmodule.v", 'v'); // ch (w, cr)
+selectCodeEditor("topmodule.v", 306, 40); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("topmodule.v", 595, 139); // ch (w, cr)
+selectCodeEditor("topmodule.v", 633, 183); // ch (w, cr)
+selectCodeEditor("topmodule.v", 276, 308); // ch (w, cr)
+selectCodeEditor("topmodule.v", 225, 349); // ch (w, cr)
+selectCodeEditor("topmodule.v", 233, 293); // ch (w, cr)
+selectCodeEditor("topmodule.v", 186, 357); // ch (w, cr)
+selectCodeEditor("topmodule.v", 239, 287); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("topmodule.v", 181, 355); // ch (w, cr)
+selectCodeEditor("topmodule.v", 243, 278); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "divider.v", 4); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "divider.v", 4); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectCodeEditor("topmodule.v", 237, 337); // ch (w, cr)
+selectCodeEditor("topmodule.v", 216, 349); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+selectCodeEditor("Basys-3-Master.xdc", 521, 205); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 528, 200); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 538, 201); // ch (w, cr)
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // ch (w, cr)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "Basys-3-Master.xdc", 'v'); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 290, 175); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 292, 159); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 761, 195); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 760, 236); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 752, 169); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 752, 213); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 750, 164); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 754, 213); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "divider.v", 4); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+selectCodeEditor("Basys-3-Master.xdc", 515, 348); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 819, 251); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 817, 238); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 801, 196); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 823, 254); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 826, 301); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 819, 249); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 824, 210); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 836, 263); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 842, 306); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 833, 242); // ch (w, cr)
+selectCodeEditor("Basys-3-Master.xdc", 824, 190); // ch (w, cr)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Basys-3-Master.xdc", 753, 133); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_divider.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 3); // i (h, cr)
+// Elapsed time: 12 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 0); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 2); // i (h, cr)
+selectCodeEditor("topmodule.v", 626, 200); // ch (w, cr)
+selectCodeEditor("topmodule.v", 631, 183); // ch (w, cr)
+selectCodeEditor("topmodule.v", 591, 285); // ch (w, cr)
+selectCodeEditor("topmodule.v", 589, 250); // ch (w, cr)
+selectCodeEditor("topmodule.v", 614, 181); // ch (w, cr)
+selectCodeEditor("topmodule.v", 566, 269); // ch (w, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // A (cr)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec 10 16:14:56 2023] Launched synth_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/synth_1/runme.log [Sun Dec 10 16:14:56 2023] Launched impl_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 63 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // aj (cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topmodule (topmodule.v)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topmodule (topmodule.v), traffic_ctrl : xil_defaultlib.TrafficLightController]", 3, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topmodule (topmodule.v), traffic_ctrl : xil_defaultlib.TrafficLightController]", 3, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, topmodule (topmodule.v), traffic_ctrl : xil_defaultlib.TrafficLightController]", 3, false, false, false, false, false, true); // B (F, cr) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "divider.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 2); // i (h, cr)
+selectCodeEditor("topmodule.v", 231, 179); // ch (w, cr)
+selectCodeEditor("topmodule.v", 305, 174); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, counter (clk_divider.v)]", 4, false, false, false, false, true, false); // B (F, cr) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ai (ao, cr)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (cr): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (cr)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/clk_divider.v}}] -no_script -reset -force -quiet 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  {{C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/clk_divider.v}} 
+selectCodeEditor("topmodule.v", 275, 127); // ch (w, cr)
+selectCodeEditor("topmodule.v", 415, 241); // ch (w, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec 10 16:16:35 2023] Launched synth_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/synth_1/runme.log [Sun Dec 10 16:16:35 2023] Launched impl_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 59 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // aj (cr)
+selectCodeEditor("topmodule.v", 276, 245); // ch (w, cr)
+selectCodeEditor("topmodule.v", 286, 226); // ch (w, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'divider_clock' should not be used in output port connection [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:17]. ]", 1, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'divider_clock' should not be used in output port connection [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:17]. ]", 1, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'divider_clock' should not be used in output port connection [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:17]. ]", 1, false, false, false, false, false, true); // ah (O, cr) - Double Click
+selectCodeEditor("topmodule.v", 278, 226); // ch (w, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 0); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 2); // i (h, cr)
+selectCodeEditor("topmodule.v", 294, 214); // ch (w, cr)
+selectCodeEditor("topmodule.v", 229, 282); // ch (w, cr)
+selectCodeEditor("topmodule.v", 220, 315); // ch (w, cr)
+selectCodeEditor("topmodule.v", 280, 208); // ch (w, cr)
+selectCodeEditor("topmodule.v", 219, 307); // ch (w, cr)
+selectCodeEditor("topmodule.v", 297, 212); // ch (w, cr)
+selectCodeEditor("topmodule.v", 237, 306); // ch (w, cr)
+selectCodeEditor("topmodule.v", 205, 334); // ch (w, cr)
+selectCodeEditor("topmodule.v", 185, 355); // ch (w, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'divider_clock' should not be used in output port connection [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:17]. ]", 1, false); // ah (O, cr)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'divider_clock' should not be used in output port connection [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:17]. ]", 1, false, false, false, false, false, true); // ah (O, cr) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-685] variable 'divider_clock' should not be used in output port connection [C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.srcs/sources_1/new/topmodule.v:17]. ]", 1, false); // ah (O, cr)
+// Elapsed time: 20 seconds
+selectCodeEditor("topmodule.v", 580, 202); // ch (w, cr)
+selectCodeEditor("topmodule.v", 552, 222); // ch (w, cr)
+selectCodeEditor("topmodule.v", 68, 244); // ch (w, cr)
+selectCodeEditor("topmodule.v", 62, 245); // ch (w, cr)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 30, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// A (cr): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("No Implementation Results Available"); // A (cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Sun Dec 10 16:18:30 2023] Launched synth_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/synth_1/runme.log [Sun Dec 10 16:18:30 2023] Launched impl_1... Run output will be captured here: C:/Users/folks/Desktop/Vivado/All Project/Zebra_Crossing/Zebra_Crossing.runs/impl_1/runme.log 
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Synthesis Failed: addNotify
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 72 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // aj (cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Basys-3-Master.xdc", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "divider.v", 3); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "topmodule.v", 2); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "traffic.v", 0); // i (h, cr)
+selectCodeEditor("traffic.v", 274, 156); // ch (w, cr)
+selectCodeEditor("traffic.v", 356, 130); // ch (w, cr)
+selectCodeEditor("traffic.v", 430, 196); // ch (w, cr)
+selectCodeEditor("traffic.v", 383, 240); // ch (w, cr)
+selectCodeEditor("traffic.v", 419, 199); // ch (w, cr)
+selectCodeEditor("traffic.v", 416, 270); // ch (w, cr)
+selectCodeEditor("traffic.v", 399, 321); // ch (w, cr)
+selectCodeEditor("traffic.v", 399, 289); // ch (w, cr)
+selectCodeEditor("traffic.v", 415, 242); // ch (w, cr)
+selectCodeEditor("traffic.v", 418, 180); // ch (w, cr)
+selectCodeEditor("traffic.v", 402, 234); // ch (w, cr)
+selectCodeEditor("traffic.v", 475, 170); // ch (w, cr)
+selectCodeEditor("traffic.v", 637, 183); // ch (w, cr)
+selectCodeEditor("traffic.v", 678, 180); // ch (w, cr)
+selectCodeEditor("traffic.v", 521, 226); // ch (w, cr)
+selectCodeEditor("traffic.v", 480, 272); // ch (w, cr)
+selectCodeEditor("traffic.v", 498, 227); // ch (w, cr)
+selectCodeEditor("traffic.v", 677, 190); // ch (w, cr)
+selectCodeEditor("traffic.v", 536, 243); // ch (w, cr)
+selectCodeEditor("traffic.v", 477, 264); // ch (w, cr)
+selectCodeEditor("traffic.v", 476, 265); // ch (w, cr)
+selectCodeEditor("traffic.v", 441, 181); // ch (w, cr)
+selectCodeEditor("traffic.v", 437, 207); // ch (w, cr)
+selectCodeEditor("traffic.v", 427, 262); // ch (w, cr)
+selectCodeEditor("traffic.v", 413, 280); // ch (w, cr)
+selectCodeEditor("traffic.v", 421, 258); // ch (w, cr)
+selectCodeEditor("traffic.v", 368, 296); // ch (w, cr)
+selectCodeEditor("traffic.v", 416, 264); // ch (w, cr)
+selectCodeEditor("traffic.v", 365, 283); // ch (w, cr)
+selectCodeEditor("traffic.v", 395, 259); // ch (w, cr)
+selectCodeEditor("traffic.v", 352, 287); // ch (w, cr)
+selectCodeEditor("traffic.v", 385, 257); // ch (w, cr)
+selectCodeEditor("traffic.v", 329, 292); // ch (w, cr)
+selectCodeEditor("traffic.v", 378, 257); // ch (w, cr)
+selectCodeEditor("traffic.v", 337, 290); // ch (w, cr)
+selectCodeEditor("traffic.v", 370, 264); // ch (w, cr)
+selectCodeEditor("traffic.v", 305, 305); // ch (w, cr)
+selectCodeEditor("traffic.v", 350, 258); // ch (w, cr)
+selectCodeEditor("traffic.v", 342, 281); // ch (w, cr)
+selectCodeEditor("traffic.v", 362, 257); // ch (w, cr)
+selectCodeEditor("traffic.v", 301, 294); // ch (w, cr)
+selectCodeEditor("traffic.v", 357, 265); // ch (w, cr)
+selectCodeEditor("traffic.v", 320, 293); // ch (w, cr)
+selectCodeEditor("traffic.v", 387, 253); // ch (w, cr)
+selectCodeEditor("traffic.v", 341, 295); // ch (w, cr)
+selectCodeEditor("traffic.v", 383, 265); // ch (w, cr)
+selectCodeEditor("traffic.v", 364, 307); // ch (w, cr)
+selectCodeEditor("traffic.v", 366, 313); // ch (w, cr)
+selectCodeEditor("traffic.v", 318, 106); // ch (w, cr)
+selectCodeEditor("traffic.v", 318, 313); // ch (w, cr)
+selectCodeEditor("traffic.v", 283, 121); // ch (w, cr)
+selectCodeEditor("traffic.v", 279, 312); // ch (w, cr)
+selectCodeEditor("traffic.v", 252, 215); // ch (w, cr)
+selectCodeEditor("traffic.v", 264, 182); // ch (w, cr)
+selectCodeEditor("traffic.v", 343, 178); // ch (w, cr)
+selectCodeEditor("traffic.v", 381, 161); // ch (w, cr)
+selectCodeEditor("traffic.v", 727, 164); // ch (w, cr)
+selectCodeEditor("traffic.v", 709, 164); // ch (w, cr)
+// Elapsed time: 55 seconds
+selectCodeEditor("traffic.v", 340, 348); // ch (w, cr)
+selectCodeEditor("traffic.v", 338, 321); // ch (w, cr)
+selectCodeEditor("traffic.v", 318, 355); // ch (w, cr)
+selectCodeEditor("traffic.v", 473, 184); // ch (w, cr)
+selectCodeEditor("traffic.v", 483, 305); // ch (w, cr)
